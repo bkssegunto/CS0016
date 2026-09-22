@@ -1,0 +1,39 @@
+{
+  "student_name": "Bienn Kyla Segunto",
+  "section": "TN35",
+  "ai_tool": "OpenAI ChatGPT/Codex",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#always-on-sandboxes",
+      "ai_recommendation_summary": "Use an Always-On Sandbox for immediate shared read-only API exploration.",
+      "verification_status": "verified",
+      "rationale": "Cisco provides Always-On Sandboxes for developers to explore APIs without the need for setup or configuration. These sandboxes are pre-configured and available at all times, making them ideal for quick testing and learning."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#reservation-sandboxes",
+      "ai_recommendation_summary": "Use a Reservation Sandbox for private administrative configuration testing.",
+      "verification_status": "verified",
+      "rationale": "Reservation Sandboxes allow users to have exclusive access to a sandbox environment for private testing and configuration work, ensuring that their changes do not affect other developers."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "Use a Learning Lab for structured beginner guidance before independent work.",
+      "verification_status": "verified",
+      "rationale": "Learning Labs provide structured, guided learning experiences for beginners to get started with network automation before moving on to independent work."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/site/codeexchange-about-page/",
+      "ai_recommendation_summary": "Use Cisco Code Exchange to examine reusable network automation repositories.",
+      "verification_status": "verified",
+      "rationale": "Cisco Code Exchange is a platform where developers can share and discover reusable network automation scripts and code snippets."
+    }
+  ]
+}
